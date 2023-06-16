@@ -22,7 +22,7 @@ export default function profile()
   <Navbar/>
 
   <div className=' flex justify-center'>
-    <div className=' text-3xl font-mono font-semibold text-green-500 my-6'>
+    <div className=' text-3xl font-mono font-semibold text-black my-6'>
         Your Posts
     </div>
   </div>

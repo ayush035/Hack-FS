@@ -14,27 +14,27 @@ export default function Home () {
 
     showMessage('Posting')
     const Web_STORAGE_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDUxODdDYTU3ZWU1MEEwOWZmOUI2NDAzMDRiQTlDNEZBOTE3MjlDM0YiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2ODQ3NzU2NjQ4MjYsIm5hbWUiOiJBeXVzaCJ9.rR03Th49YPmOVoy8n8teXTTImO1P5wz4BxAFDFAb3wM'
-const client = new Web3Storage({ token: Web_STORAGE_TOKEN })
+    const client = new Web3Storage({ token: Web_STORAGE_TOKEN })
     // const client = new Web3Storage({ token })
 
-    showMessage('> 🤖 chunking and hashing the files (in your browser!) to calculate the Content ID')
+    showMessage(' 🤖 chunking and hashing the files (in your browser!) to calculate the Content ID')
     const cid = await client.put(files, {
       onRootCidReady: localCid => {
         showMessage(`> 🔑 locally calculated Content ID: ${localCid} `)
-        showMessage('> 📡 sending files to web3.storage ')
+        showMessage('> 📡 sending files to Web3.storage ')
       },
       onStoredChunk: bytes => showMessage(` Posted ${bytes.toLocaleString()} `)
     })
-    showMessage(`> ✅ web3.storage now hosting ${cid}`)
+    showMessage(` ✅ web3.storage now hosting ${cid}`)
     showLink(`https://dweb.link/ipfs/${cid}`)
 
-    showMessage('> 📡 fetching the list of all unique uploads on this account')
-    let totalBytes = 0
-    for await (const upload of client.list()) {
-      showMessage(`> 📄 ${upload.cid}  ${upload.name}`)
-      totalBytes += upload.dagSize || 0
-    }
-    showMessage(`> ⁂ ${totalBytes.toLocaleString()} bytes stored!`)
+    // showMessage('> 📡 fetching the list of all unique uploads on this account')
+    // let totalBytes = 0
+    // for await (const upload of client.list()) {
+    //   showMessage(`> 📄 ${upload.cid}  ${upload.name}`)
+    //   totalBytes += upload.dagSize || 0
+    // }
+    // showMessage(`  ${totalBytes.toLocaleString()} bytes stored!`)
   }
 
   function showLink (url) {
@@ -42,10 +42,11 @@ const client = new Web3Storage({ token: Web_STORAGE_TOKEN })
   }
 
   return (
-    <><Navbar />
-    <main className='my-16 rounded-xl bg-slate-900 text-green-400 mx-72'>
+    <>
+    <Navbar />
+    <main className='my-16 rounded-l hover:rounded-xl bg-slate-300 text-black mx-72'>
 <div className='flex justify-center items-center my-6 mx-4'>
-<div className='rounded-2xl bg-slate-900'>
+<div className='rounded-2xl '>
 <div className=' text-3xl my-4 mx-8 cursor-pointer font-mono font-semibold'>
 Upload Posts</div>
 </div>
@@ -63,7 +64,7 @@ Upload Posts</div>
 
 
 <div className='flex justify-center items-center my-4 mx-6'>
-<div className='rounded-2xl bg-slate-800'>
+<div className='rounded-2xl bg-slate-400'>
 <div className=' text-2xl my-2 mx-3 cursor-pointer font-mono font-semibold hover:text-white'>
 <input className="px-8 my-2 cursor-pointer" type='submit' value='Submit' id='submit' />
 </div>
