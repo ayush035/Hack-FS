@@ -56,10 +56,10 @@ Upload Posts</div>
 <div className=" p-2 mx-4 right flex flex-col">
 {/* <label className='my-2 font-mono text-md font-semibold' htmlFor='token'>Paste your web3.storage API token here</label> */}
 {/* <input className='text-black px-8 flex w-10/12' type='password' id='token' onChange={e => setToken(e.target.value)} required /> */}
-<label className='my-2 font-mono text-md font-semibold' htmlFor='filepicker'>Pick files to store</label>
+<label className='my-2 font-mono text-md font-semibold' htmlFor='filepicker'>Choose your art to upload</label>
 <input type='file' id='filepicker' name='fileList' onChange={e => setFiles(e.target.files)} multiple required />
 <label className='my-2 font-mono text-md font-semibold'>Description</label>
-<input className='text-black px-8 flex w-10/12 ' type='text' placeholder='Hey,there !'/>
+<input className='text-black px-8 flex w-10/12 ' type='text' placeholder='Define your art !'/>
 
 
 

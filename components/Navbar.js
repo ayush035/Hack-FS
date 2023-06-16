@@ -13,7 +13,7 @@ export default function Navbar() {
 
         <div className='hover:text-black delay-50  text-md font-semibold font-mono '>
         
-            <Link href="/explore">Explore</Link></div>
+            <Link href="/gallery">Art Gallery</Link></div>
         <div className='hover:text-black delay-50  text-md font-semibold font-mono'>
         
             <Link href="/search">Search</Link></div>

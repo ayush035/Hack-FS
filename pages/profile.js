@@ -28,7 +28,7 @@ export default function profile()
   </div>
   <div className='flex'>
   <div className='grid grid-cols-4 gap-2 '>
-  <div className=' bg-gray-300 text-black mx-10 my-2 rounded-xl  '>
+  <div className=' bg-gray-300 text-black mx-10 my-2 rounded-xl hover:bg-slate-400 '>
                 <div className="mx-1 my-1 cursor-pointer ">
                     <a href='https://bafybeietu4bacniu3vfiparmvxqmd4oclzdiieqva2gaz2exyif46ne4tu.ipfs.dweb.link/Logo.png'>
                     <Image src={Logo} 
@@ -44,7 +44,7 @@ export default function profile()
                     </div>
                     </div>
 
-                    <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl  '>
+                    <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
                 <div className="mx-1 my-1 cursor-pointer">
                 <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link/photo_2023-04-28_20-29-12.jpg'>
                     <Image src={pic} 
@@ -59,6 +59,106 @@ export default function profile()
                     </div>
                     </div>
                     </div>
+
+                    <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
+                <div className="mx-1 my-1 cursor-pointer">
+                <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link/photo_2023-04-28_20-29-12.jpg'>
+                    <Image src={pic} 
+                    alt='' height="260px" width='400px'>
+                    </Image></a>
+                    </div>
+                    <div className=' flex justify-center'>
+                    <div className=' text-black font-mono my-2'>
+                        <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link'>
+                        View on IPFS
+                        </a>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
+                <div className="mx-1 my-1 cursor-pointer">
+                <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link/photo_2023-04-28_20-29-12.jpg'>
+                    <Image src={pic} 
+                    alt='' height="260px" width='400px'>
+                    </Image></a>
+                    </div>
+                    <div className=' flex justify-center'>
+                    <div className=' text-black font-mono my-2'>
+                        <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link'>
+                        View on IPFS
+                        </a>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
+                <div className="mx-1 my-1 cursor-pointer">
+                <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link/photo_2023-04-28_20-29-12.jpg'>
+                    <Image src={pic} 
+                    alt='' height="260px" width='400px'>
+                    </Image></a>
+                    </div>
+                    <div className=' flex justify-center'>
+                    <div className=' text-black font-mono my-2'>
+                        <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link'>
+                        View on IPFS
+                        </a>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
+                <div className="mx-1 my-1 cursor-pointer">
+                <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link/photo_2023-04-28_20-29-12.jpg'>
+                    <Image src={pic} 
+                    alt='' height="260px" width='400px'>
+                    </Image></a>
+                    </div>
+                    <div className=' flex justify-center'>
+                    <div className=' text-black font-mono my-2'>
+                        <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link'>
+                        View on IPFS
+                        </a>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
+                <div className="mx-1 my-1 cursor-pointer">
+                <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link/photo_2023-04-28_20-29-12.jpg'>
+                    <Image src={pic} 
+                    alt='' height="260px" width='400px'>
+                    </Image></a>
+                    </div>
+                    <div className=' flex justify-center'>
+                    <div className=' text-black font-mono my-2'>
+                        <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link'>
+                        View on IPFS
+                        </a>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
+                <div className="mx-1 my-1 cursor-pointer">
+                <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link/photo_2023-04-28_20-29-12.jpg'>
+                    <Image src={pic} 
+                    alt='' height="260px" width='400px'>
+                    </Image></a>
+                    </div>
+                    <div className=' flex justify-center'>
+                    <div className=' text-black font-mono my-2'>
+                        <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link'>
+                        View on IPFS
+                        </a>
+                    </div>
+                    </div>
+                    </div>
+
+
+                    
+
 
 
     </div>
