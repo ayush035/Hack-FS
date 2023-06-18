@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar'
 // import Upload from '@/components/Upload'
 // const inter = Inter({ subsets: ['latin'] })
 import d from '../public/d.jpg'
-import shield from '../public/shield.png'
+import k from '../public/k.jpg'
 import Footer from '@/components/Footer'
 
 
@@ -25,7 +25,7 @@ height="400"/>
 <div className=' flex flex-col'>
 <div className ='my-20 mx-20 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105'>
 <Image 
-src={shield}
+src={k}
 alt=''
 width="350"
 height="400"/>
