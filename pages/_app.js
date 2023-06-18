@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import '@rainbow-me/rainbowkit/styles.css';
+import { ThirdwebProvider } from "@thirdweb-dev/react";
 import  { AppProps } from 'next/app';
 import {
   RainbowKitProvider,
@@ -58,6 +59,7 @@ const wagmiConfig = createConfig({
 
 function MyApp({ Component, pageProps }) {
   return (
+    <ThirdwebProvider activeChain="goerli">
     <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider appInfo={demoAppInfo} 
       chains={chains}
@@ -68,6 +70,8 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </RainbowKitProvider>
     </WagmiConfig>
+        </ThirdwebProvider>
+
   );
 }
 

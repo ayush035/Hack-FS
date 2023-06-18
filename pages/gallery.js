@@ -9,7 +9,15 @@ import f from '../public/f.jpg'
 import g from '../public/g.jpg'
 import h from '../public/h.jpg'
 import i from '../public/i.jpg'
+import { useContractWrite, useContract, Web3Button } from "@thirdweb-dev/react";
+
+
 export default function Home() {
+    // const { data: contract } = useContract("0x99779C797B0Af4355c16DF32D6E2B0522C264035");
+    // const { mutateAsync, isLoading, error } = useContractWrite(
+    //     contract,
+    //     "donate",
+    //   );  
     return (
 <>
 <Navbar/>
@@ -26,7 +34,7 @@ export default function Home() {
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
                         <a href='https://dweb.link/ipfs/bafybeibaui4mmonz3nwy6gn6v6b5bgyg4fvugnu3a3zckvnuh6ytii6tza'>
-                        View on IPFS
+                        By 0xayushh.eth
                         </a>
                     </div>
                     </div>
@@ -42,7 +50,7 @@ export default function Home() {
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
                         <a href='https://dweb.link/ipfs/bafybeie6gccdkxzbjw4frpgivpzzqb7hmxsbyw7y54zhir2o53yqe36xna'>
-                        View on IPFS
+                        By 0xayushh.eth
                         </a>
                     </div>
                     </div>
@@ -58,7 +66,7 @@ export default function Home() {
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
                         <a href='https://bafybeid255isfmzc5lfof7ylhfdvaonwo7wehcpoe7ac7qikbw3lo7beta.ipfs.dweb.link'>
-                        View on IPFS
+                        By 0xayushh.eth
                         </a>
                     </div>
                     </div>
@@ -74,7 +82,7 @@ export default function Home() {
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
                         <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link'>
-                        View on IPFS
+                        By 0xayushh.eth
                         </a>
                     </div>
                     </div>
@@ -90,7 +98,7 @@ export default function Home() {
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
                         <a href='https://bafybeib5daahpvejlknp2gsqr6uesoidzqydblmze7imuzdq7mufz7st3m.ipfs.dweb.link'>
-                        View on IPFS
+                        By 0xayushh.eth
                         </a>
                     </div>
                     </div>
@@ -106,7 +114,7 @@ export default function Home() {
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
                         <a href='https://bafybeihvbb5tuy543vj33ccsquvla77vunpk2rnmpmiwfwz3l5tpeo737y.ipfs.dweb.link'>
-                        View on IPFS
+                        By 0xayushh.eth
                         </a>
                     </div>
                     </div>
@@ -122,7 +130,7 @@ export default function Home() {
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
                         <a href='https://bafybeifhtquk6ymdxu4cbkrya6zqpx55gqlp6yts6yrfiwk5qnxhyasioq.ipfs.dweb.link'>
-                        View on IPFS
+                        By 0xayushh.eth
                         </a>
                     </div>
                     </div>
@@ -138,7 +146,7 @@ export default function Home() {
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
                         <a href='https://bafybeic3cgzlquj442qaerszk4m3w7bzl4o7pqg43lsta65qbolo35yoze.ipfs.dweb.link'>
-                        View on IPFS
+                        By 0xayushh.eth
                         </a>
                     </div>
                     </div>
@@ -152,6 +160,13 @@ export default function Home() {
     </div>
   </div>
 </div>
+
+{/* <Web3Button
+      contractAddress="0x99779C797B0Af4355c16DF32D6E2B0522C264035"
+      action={async (contract) => contract.call("donate")}
+    >
+Donate    </Web3Button> */}
+
 <Footer/>
 </>
     )
