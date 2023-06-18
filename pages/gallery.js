@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Link from "next/link";
 import Image from 'next/image'
 import a from '../public/a.jpg'
 import b from '../public/b.jpg'
@@ -26,10 +27,10 @@ export default function Home() {
   <div className='grid grid-cols-4 gap-2 '>
   <div className=' bg-gray-300 text-black mx-10 my-2 rounded-xl hover:bg-slate-400 '>
                 <div className="mx-1 my-1 cursor-pointer ">
-                    <a href='https://bafybeibaui4mmonz3nwy6gn6v6b5bgyg4fvugnu3a3zckvnuh6ytii6tza.ipfs.dweb.link/c.jpg'>
+                    <Link href='/fund'>
                     <Image src={c} 
                     alt='' height="260px" width='400px'>
-                    </Image></a>
+                    </Image></Link>
                     </div>
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
