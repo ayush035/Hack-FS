@@ -3,6 +3,8 @@ pragma solidity ^0.8.0;
 
 contract DonationContract {
     address payable public wallet;
+    tokenid:0x4d224452801ACEd8B2F0aebE155379bb5D594381
+    //APEToken
 
     event DonationReceived(address indexed sender, uint256 amount);
 
