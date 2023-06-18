@@ -12,7 +12,7 @@ export default function Home() {
 </div>
 <div className='flex justify-center'>
 <div className='text-3xl my-20  text-gray-500  font-mono font-semibold'>
-    Search to see others posts !
+    Search for any artist to see their NFT !
 </div>
 </div>
 <Footer/>
