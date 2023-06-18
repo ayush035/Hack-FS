@@ -28,6 +28,11 @@ export default function Navbar() {
             <Link href="/profile">Profile</Link></div>
               {/* <div className=' mx-2 my-2 '> */}            
         <ConnectButton/>
+
+
+        <div className='hover:text-black delay-50 text-md font-semibold font-mono '>
+0xayushh.eth
+</div>
             </ul>
         </nav>
         {/* <hr/> */}
