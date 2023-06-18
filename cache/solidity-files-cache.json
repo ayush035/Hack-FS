@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\AYUSH GUPTA\\Documents\\GitHub\\Hack-FS\\contracts\\funder.sol": {
+      "lastModificationDate": 1687019541719,
+      "contentHash": "f8e7b4f0f86676ba9e0ea68cbf55f63b",
+      "sourceName": "contracts/funder.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DonationContract"
+      ]
+    }
+  }
+}
