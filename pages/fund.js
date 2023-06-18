@@ -34,11 +34,17 @@ Donate $ in Apecoin
 Bid $ in Apecoin to purchase NFT
 </div>
    <div>
-<input className='mx-10 font-mono pb-2 text-black text-xl bg-gray-300 rounded-lg my-4' placeholder='  $ BID ' />
+<input className='mx-10 font-mono pb-2 text-black text-xl bg-gray-300 rounded-lg my-4' placeholder='  $ APE ' />
 </div>
 <button className ="mx-10 font-mono text-black text-xl font-bold bg-slate-400 rounded-lg my-2 px-2 py-1">
  Bid
    </button>
+   <div className= "mx-10 font-mono text-black text-xl font-bold">
+Last Bid $ 
+</div>
+<div className= "mx-10 font-mono text-black text-xl my-2">
+0 APE $ 
+</div>
 
 </div>
 
