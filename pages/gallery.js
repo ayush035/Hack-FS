@@ -43,10 +43,10 @@ export default function Home() {
 
                     <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
                 <div className="mx-1 my-1 cursor-pointer">
-                <a href='https://bafybeie6gccdkxzbjw4frpgivpzzqb7hmxsbyw7y54zhir2o53yqe36xna.ipfs.dweb.link/a.jpg'>
+                <Link  href='/fund2'>
                     <Image src={a} 
                     alt='' height="260px" width='400px'>
-                    </Image></a>
+                    </Image></Link>
                     </div>
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
@@ -59,10 +59,10 @@ export default function Home() {
 
                     <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400'>
                 <div className="mx-1 my-1 cursor-pointer">
-                <a href='https://bafybeid255isfmzc5lfof7ylhfdvaonwo7wehcpoe7ac7qikbw3lo7beta.ipfs.dweb.link/e.jpg'>
+                <Link href='/fund3'>
                     <Image src={e} 
                     alt='' height="260px" width='400px'>
-                    </Image></a>
+                    </Image></Link>
                     </div>
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
@@ -75,10 +75,10 @@ export default function Home() {
 
                     <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
                 <div className="mx-1 my-1 cursor-pointer">
-                <a href='https://bafybeihqmu4d6vamf5zwiner7hqahi7fn5bbhaappyhguz5wq4hynivxcm.ipfs.dweb.link/b.jpg'>
+                <Link href='/fund4'>
                     <Image src={b} 
                     alt='' height="260px" width='400px'>
-                    </Image></a>
+                    </Image></Link>
                     </div>
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
@@ -91,10 +91,10 @@ export default function Home() {
 
                     <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
                 <div className="mx-1 my-1 cursor-pointer">
-                <a href='https://bafybeib5daahpvejlknp2gsqr6uesoidzqydblmze7imuzdq7mufz7st3m.ipfs.dweb.link/f.jpg'>
+                <Link href='/fund5'>
                     <Image src={f} 
                     alt='' height="260px" width='400px'>
-                    </Image></a>
+                    </Image></Link>
                     </div>
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
@@ -107,10 +107,10 @@ export default function Home() {
 
                     <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
                 <div className="mx-1 my-1 cursor-pointer">
-                <a href='https://bafybeihvbb5tuy543vj33ccsquvla77vunpk2rnmpmiwfwz3l5tpeo737y.ipfs.dweb.link/g.jpg'>
+                <Link href='/fund6'>
                     <Image src={g} 
                     alt='' height="260px" width='400px'>
-                    </Image></a>
+                    </Image></Link>
                     </div>
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
@@ -123,10 +123,10 @@ export default function Home() {
 
                     <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
                 <div className="mx-1 my-1 cursor-pointer">
-                <a href='https://bafybeifhtquk6ymdxu4cbkrya6zqpx55gqlp6yts6yrfiwk5qnxhyasioq.ipfs.dweb.link/h.jpg'>
+                <Link href='/fund7'>
                     <Image src={h} 
                     alt='' height="260px" width='400px'>
-                    </Image></a>
+                    </Image></Link>
                     </div>
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
@@ -139,10 +139,10 @@ export default function Home() {
 
                     <div className=' bg-gray-300 text-white mx-10 my-2 rounded-xl hover:bg-slate-400 '>
                 <div className="mx-1 my-1 cursor-pointer">
-                <a href='https://bafybeic3cgzlquj442qaerszk4m3w7bzl4o7pqg43lsta65qbolo35yoze.ipfs.dweb.link/i.jpg'>
+                <Link href='/fund1'>
                     <Image src={i} 
                     alt='' height="260px" width='400px'>
-                    </Image></a>
+                    </Image></Link>
                     </div>
                     <div className=' flex justify-center'>
                     <div className=' text-black font-mono my-2'>
